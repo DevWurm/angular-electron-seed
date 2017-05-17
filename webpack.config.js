@@ -198,7 +198,7 @@ module.exports = {
         "favicon.ico"
       ],
       "globOptions": {
-        "cwd": "/home/devwurm/Work/Publications/electron-ng2-article/article1/angular-2-electron-seed/src",
+        "cwd": path.join(process.cwd(), "src"),
         "dot": true,
         "ignore": "**/.gitkeep"
       }
