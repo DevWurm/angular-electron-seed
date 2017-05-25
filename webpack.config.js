@@ -44,7 +44,7 @@ module.exports = {
       "./src/polyfills.ts"
     ],
     "styles": [
-      "./src/styles.css"
+      "./src/styles.scss"
     ]
   },
   "output": {
@@ -80,7 +80,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.css$/,
         "loaders": [
@@ -91,7 +91,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.scss$|\.sass$/,
         "loaders": [
@@ -103,7 +103,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.less$/,
         "loaders": [
@@ -115,7 +115,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.styl$/,
         "loaders": [
@@ -127,7 +127,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.css$/,
         "loaders": ExtractTextPlugin.extract({
@@ -141,7 +141,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.scss$|\.sass$/,
         "loaders": ExtractTextPlugin.extract({
@@ -156,7 +156,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.less$/,
         "loaders": ExtractTextPlugin.extract({
@@ -171,7 +171,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.styl$/,
         "loaders": ExtractTextPlugin.extract({
